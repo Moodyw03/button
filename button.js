@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var soundButton = document.getElementById('soundButton');
     var backgroundVideo = document.getElementById('backgroundVideo');
-    var audio = new Audio('wheelsthatgo.mp3'); // Make sure this path is correct
+    var audio = new Audio('track.mp3'); // Make sure this path is correct
     audio.volume = 1.0;
     var isPlaying = false;
 
